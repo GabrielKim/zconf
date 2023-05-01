@@ -1,13 +1,14 @@
+from typing import Tuple, Union
+import os
+
+from dfl.dfl import dfl_tools
+
+from dotenv import load_dotenv
+import omegaconf
+
+
 class zconf(object):
-    from typing import Tuple, Union
-    import os
 
-    from dfl.dfl import dfl_tools
-
-    from dotenv import load_dotenv
-    import omegaconf
-    
-    
     def __init__(
         self,
         zconf_path: str="",
