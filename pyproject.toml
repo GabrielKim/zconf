@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "pyzconf"
-version = "0.1.1"
+version = "0.1.2"
 description = ""
 authors = ["Doohoon Kim <invi.dh.kim@gmail.com>"]
 readme = "README.md"
