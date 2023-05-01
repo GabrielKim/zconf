@@ -2,7 +2,7 @@ class zconf(object):
     from typing import Tuple, Union
     import os
 
-    from utils.dfl import dfl_tools
+    from dfl.dfl import dfl_tools
 
     from dotenv import load_dotenv
     import omegaconf
