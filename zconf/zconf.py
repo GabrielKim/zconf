@@ -99,7 +99,7 @@ class zconf(object):
         
         _ret = None
         
-        if name != None in target:
+        if name in target:
             _ret = target[name] if target[name] != None else other
             
         return _ret
