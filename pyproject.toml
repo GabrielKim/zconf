@@ -1,9 +1,10 @@
 [tool.poetry]
-name = "zconf"
+name = "pyzconf"
 version = "0.1.0"
 description = ""
 authors = ["Doohoon Kim <invi.dh.kim@gmail.com>"]
 readme = "README.md"
+packages = [{include = "zconf"}]
 
 [tool.poetry.dependencies]
 python = "^3.10"
